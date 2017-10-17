@@ -21,21 +21,21 @@ public class BubbleSort {
 		for(int i=0; i<a.length; i++){
 			System.out.print(a[i] + ",");
 		}
-		System.out.println();
-		int b[] = {3,2,5,1,6,4,2,6};
-		int tem = 0;
-		for(int i=0; i<b.length-1; i++){
-			for(int j=0; j<b.length-1-i; j++){
-				if(b[j] > b[j+1]){
-					tem = b[j];
-					b[j] = b[j+1];
-					b[j+1] = tem;
-				}
-			}
-		}
-		for(int i=0; i<b.length-1; i++){
-			System.out.print(b[i] + ",");
-		}
+//		System.out.println();
+//		int b[] = {3,2,5,1,6,4,2,6};
+//		int tem = 0;
+//		for(int i=0; i<b.length-1; i++){
+//			for(int j=0; j<b.length-1-i; j++){
+//				if(b[j] > b[j+1]){
+//					tem = b[j];
+//					b[j] = b[j+1];
+//					b[j+1] = tem;
+//				}
+//			}
+//		}
+//		for(int i=0; i<b.length-1; i++){
+//			System.out.print(b[i] + ",");
+//		}
 	}
 
 }
