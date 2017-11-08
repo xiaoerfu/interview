@@ -17,6 +17,11 @@ public class Interface16 extends RandomChars implements Readable{
 		cb.append(result);
 		return result.length() ;
 	}
+	private char next() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner s = new Scanner(new Interface16(5));

@@ -9,7 +9,7 @@ import java.util.Scanner;
  * @author lijianfu
  *
  */
-public class TudiTest {
+public class TuziTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
