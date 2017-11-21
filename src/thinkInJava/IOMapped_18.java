@@ -13,6 +13,12 @@ import java.io.RandomAccessFile;
 import java.nio.IntBuffer;
 import java.nio.channels.FileChannel;
 
+/**
+ * I/O流中几种访问文件的方式时间大小比较
+ * @author lijianfu
+ * 2017年11月20日
+ * 下午5:32:31
+ */
 public class IOMapped_18 {
 
 	private static int numOfInts = 4000000;

@@ -16,7 +16,7 @@ public class Scanner20 {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(threatData);
 		String pattern = "(\\d+[.]\\d+[.]\\d+[.]\\d+)@" +
-							"(\\d{2}/\\d{2}/\\d{4})";
+							"(\\d{2}/\\d{2}/\\d{4})";		//判断是否为邮箱格式
 		while(scanner.hasNext(pattern)){
 			scanner.next(pattern);
 			MatchResult match = scanner.match();
