@@ -8,9 +8,11 @@ package sort;
  */
 public class QuickSortTest {
 
-	static final int SIZE = 10;
-	static void quickSort(int arr[], int left, int right){
-		int f,t;
+//	static final int SIZE = 10;
+	static void quickSort(char arr[], int left, int right){
+		int f;
+//		int t;
+		char t;
 		int rtemp,ltemp;
 		
 		ltemp = left;
@@ -43,25 +45,36 @@ public class QuickSortTest {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] arr = new int[SIZE];
-		long startTime = System.currentTimeMillis();
-		for (int i = 0; i < arr.length; i++) {
-			arr[i] = (int)(100 + Math.random()*(100+1));			//初始化数组
-		}
-		System.out.println("排序前数组：");
-		for (int i = 0; i < arr.length; i++) {
-			System.out.print(arr[i] + " ");
+//		int[] arr = new int[SIZE];
+		char str[] = {'a','d','e','g','f','v','d','e','a','g','v','a'};
+		int N = str.length;
+		for (int i = 0; i < str.length; i++) {
+			System.out.print(str[i] + " ");
 		}
 		System.out.println();
-		quickSort(arr, 0, SIZE-1);									//排序操作
+		quickSort(str, 0, N-1);
+		for (int i = 0; i < str.length; i++) {
+			System.out.print(str[i] + " ");
+		}
 		
-		System.out.println("排序后的数组：");
-		for (int i = 0; i < arr.length; i++) {
-			System.out.print(arr[i] + " ");							//输出排序后的数组
-		}
-		System.out.println();
-		long endTime = System.currentTimeMillis();
-		System.out.println("总共经过" + (endTime - startTime) + "秒！");
+//		long startTime = System.currentTimeMillis();
+//		for (int i = 0; i < arr.length; i++) {
+//			arr[i] = (int)(100 + Math.random()*(100+1));			//初始化数组
+//		}
+//		System.out.println("排序前数组：");
+//		for (int i = 0; i < arr.length; i++) {
+//			System.out.print(arr[i] + " ");
+//		}
+//		System.out.println();
+//		quickSort(arr, 0, SIZE-1);									//排序操作
+//		
+//		System.out.println("排序后的数组：");
+//		for (int i = 0; i < arr.length; i++) {
+//			System.out.print(arr[i] + " ");							//输出排序后的数组
+//		}
+//		System.out.println();
+//		long endTime = System.currentTimeMillis();
+//		System.out.println("总共经过" + (endTime - startTime) + "秒！");
 	}
 
 }

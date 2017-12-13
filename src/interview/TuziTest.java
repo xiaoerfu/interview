@@ -22,10 +22,10 @@ public class TuziTest {
 		int M = 24;
 		for (int i = 3; i <= M; i++) {
 			f = f2;
-			System.out.println(f);
+//			System.out.println(f);
 			f2 = f1 + f2;
 			f1 = f;
-			System.out.println(f1);
+//			System.out.println(f1);
 			System.out.println("第" + i + "个月的兔子对数  ：" + f2);
 		}
 		System.out.println("----------------------");

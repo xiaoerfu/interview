@@ -10,7 +10,12 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.util.Random;
-
+/**
+ * 序列化一个对象
+ * @author lijianfu
+ * 2017年11月28日
+ * 上午8:59:56
+ */
 class Data implements Serializable{
 	private int n;
 	public Data(int n){this.n = n;}

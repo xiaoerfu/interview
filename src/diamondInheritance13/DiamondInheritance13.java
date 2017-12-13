@@ -1,5 +1,11 @@
 package diamondInheritance13;
 
+/**
+ * 转型例子
+ * @author lijianfu
+ * 2017年11月28日
+ * 上午8:57:51
+ */
 interface CanDo {
 	void doIt();
 }
